@@ -1,12 +1,5 @@
 name: "my-containers"
 services:
-  redis:
-    restart: unless-stopped
-    ports:
-      - 6379:6379
-    container_name: redis
-    image: redis
-  
   mongo:
     restart: unless-stopped
     ports:
